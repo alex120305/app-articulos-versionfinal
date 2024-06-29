@@ -1,1 +1,47 @@
-<p>cargar-articulo works!</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar articulo</title>
+    <link rel="stylesheet" href="cargar-articulo.component.css">
+</head>
+<body>
+    <div class="articulo-container">
+        <h2 class="cargar-articulo-titulo">Cargar Artículo</h2>
+        <form>
+            <div class="input-group">
+                <i class="fa-solid fa-building"></i>
+                <label for="cars"></label>
+                <select id="tipos" name="eleccion">
+                <option value="ts">Tipo de subsistemas</option>
+                <option value="ut">Universidad tecnológica</option>
+                <option value="up">Universidad politécnica</option>
+                <option value="it">Instituto tecnológico</option>
+</select>
+<div>
+    <i class="fa-solid fa-book"></i>
+    <input type="text" placeholder="Título Artículo">
+</div>
+<div>
+    <i class="fa-solid fa-user"></i>
+    <input type="text" placeholder="Autor">
+</div>
+<div>
+    <i class="fa-solid fa-book-open"></i>
+    <input type="text" placeholder="Breve resumen del artículo">
+</div>
+<div>
+    <i class="fa-solid fa-file"></i>
+    <input type="file" placeholder="archivos">    
+</div>
+            </div>
+            
+
+        </form>
+        <button class="cargar-articulo">Cargar Archivo</button>
+
+    </div>
+    
+</body>
+</html>

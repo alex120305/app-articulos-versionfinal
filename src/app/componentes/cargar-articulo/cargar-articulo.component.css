@@ -1,0 +1,45 @@
+.articulo-container{
+   width: 380px;
+   margin: 100px auto;
+   padding: 33px;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   box-shadow: 0 0 10px black; 
+}
+
+.cargar-articulo-titulo{
+   text-align: center;
+   font-size: 26px; 
+   margin-bottom: 20px;
+}
+
+.input-group{
+   position: relative;
+   margin-bottom: 15px; 
+}
+
+.input-group i{
+    position: relative;
+    right: 5px;
+    top: 3px;
+    color: #999;
+    font-size: 16px;
+}
+
+.input-group input{
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.cargar-articulo{
+    background-color: #333;
+    color: aliceblue;
+    padding: 8px 100px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
