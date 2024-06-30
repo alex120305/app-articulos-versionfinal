@@ -1,62 +1,88 @@
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: url(image.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .registro-container {
-    width: 450px;
-    margin: 100px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .registro-title {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .input-group {
-    position: relative;
-    margin-bottom: 15px;
-  }
-  
-  .input-group i {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    color: #999;
-    font-size: 16px;
-  }
-  
-  .input-group input {
-    width: 100%;
-    padding: 10px 40px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  .registro-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 170px;
-    border: none;
-    border-radius: 28px;
-    cursor: pointer;
-    transition: background-color 0.5s;
-    
-  }
-  
-  .registro-button:hover {
-    background-color: #555;
-    
-  }
-  
-  .registro-message {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  .registro-link {
-    text-align: center;
-    margin-top: 10px;
-  }
+  width: 450px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333; 
+}
+
+.registro-titulo {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group i {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #999;
+  font-size: 16px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #fff; 
+}
+
+.registro-boton {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 170px;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.registro-boton:hover {
+  background-color: #555;
+}
+
+.registro-mensaje {
+  text-align: center;
+  margin-top: 10px;
+  color: #333; 
+}
+
+.registro-link {
+  text-align: center;
+  margin-top: 10px;
+  color: #333; 
+}
+
+.registro-link a {
+  color: #0066cc; 
+  text-decoration: none;
+}
+
+.registro-link a:hover {
+  text-decoration: underline;
+}

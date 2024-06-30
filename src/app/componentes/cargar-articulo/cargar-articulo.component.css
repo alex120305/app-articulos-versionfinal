@@ -1,45 +1,69 @@
-.articulo-container{
-   width: 380px;
-   margin: 100px auto;
-   padding: 33px;
-   border: 1px solid #ddd;
-   border-radius: 10px;
-   box-shadow: 0 0 10px black; 
-}
+/* cargar-articulo.component.css */
 
-.cargar-articulo-titulo{
-   text-align: center;
-   font-size: 26px; 
-   margin-bottom: 20px;
-}
-
-.input-group{
-   position: relative;
-   margin-bottom: 15px; 
-}
-
-.input-group i{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url(image.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .articulo-container {
+    width: 450px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el formulario */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Cambiar color del texto */
+  }
+  
+  .cargar-articulo-titulo {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Asegurarse de que el título sea visible */
+  }
+  
+  .input-group {
     position: relative;
-    right: 5px;
-    top: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .input-group i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
     color: #999;
     font-size: 16px;
-}
-
-.input-group input{
-    padding: 8px 10px;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 10px 40px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
-    font-size: 14px;
-}
-
-.cargar-articulo{
+    font-size: 16px;
+    background-color: #fff; /* Fondo blanco para los campos de entrada */
+  }
+  
+  .cargar-articulo {
     background-color: #333;
-    color: aliceblue;
-    padding: 8px 100px;
+    color: #fff;
+    padding: 10px 170px;
     border: none;
-    border-radius: 15px;
+    border-radius: 28px;
     cursor: pointer;
     transition: background-color 0.5s;
-}
+  }
+  
+  .cargar-articulo:hover {
+    background-color: #555;
+  }
+  
